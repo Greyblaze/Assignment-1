@@ -1,0 +1,388 @@
+body {
+  color: white;
+  background-color: rgb(63, 11, 63);
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(32, 3, 32, 0.555);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 0) and (max-width: 768px) {
+  body {
+    font-size: 0.55rem;
+  }
+
+  nav {
+    padding: 0 0.5rem;
+  }
+
+  .navbar li {
+    padding: 0 0.5rem;
+  }
+
+  .about {
+    text-align: center;
+    padding: 0 1rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+
+  img {
+    width: 4rem;
+    height: 5rem;
+    border-radius: 50%;
+  }
+
+  .education,
+  .experience {
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .experience li {
+    margin-bottom: 1rem;
+  }
+
+  .skills {
+    text-align: center;
+  }
+
+  .skill-c {
+    margin: 1.5rem 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  span {
+    background-color: white;
+    padding: 0.35rem;
+    margin: 0 0.25rem;
+    color: black;
+    border-radius: 0.5rem;
+  }
+
+  .contact-container {
+    display: flex;
+    padding: 0 1rem;
+    margin: 3rem 1rem;
+    background-color: rgba(32, 3, 32, 0.555);
+  }
+
+  .contact-text {
+    flex-basis: 50%;
+    margin: auto 0;
+  }
+
+  .contact-form {
+    flex-basis: 50%;
+  }
+
+  .contact-text p {
+    width: 80%;
+  }
+
+  .sub {
+    padding-left: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .sub h4,
+  .sub p {
+    margin: 0;
+  }
+
+  input {
+    margin-bottom: 1rem;
+  }
+
+  .register {
+    background-color: rgba(32, 3, 32, 0.555);
+    width: 50%;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+  }
+
+  .login {
+    text-align: center;
+  }
+
+  .login-container {
+    background-color: rgba(32, 3, 32, 0.555);
+    width: 50%;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1278px) {
+  body {
+    font-size: 0.55rem;
+  }
+
+  nav {
+    padding: 0 0.5rem;
+  }
+
+  .navbar li {
+    padding: 0 0.5rem;
+  }
+
+  .about {
+    text-align: center;
+    padding: 0 1rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+
+  img {
+    width: 4rem;
+    height: 5rem;
+    border-radius: 50%;
+  }
+
+  .education,
+  .experience {
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .experience li {
+    margin-bottom: 1rem;
+  }
+
+  .skills {
+    text-align: center;
+  }
+
+  .skill-c {
+    margin: 1.5rem 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  span {
+    background-color: white;
+    padding: 0.35rem;
+    margin: 0 0.25rem;
+    color: black;
+    border-radius: 0.5rem;
+  }
+
+  .contact-container {
+    display: flex;
+    padding: 0 1rem;
+    margin: 3rem 1rem;
+    background-color: rgba(32, 3, 32, 0.555);
+  }
+
+  .contact-text {
+    flex-basis: 50%;
+    margin: auto 0;
+  }
+
+  .contact-form {
+    flex-basis: 50%;
+  }
+
+  .contact-text p {
+    width: 80%;
+  }
+
+  .sub {
+    padding-left: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .sub h4,
+  .sub p {
+    margin: 0;
+  }
+
+  input {
+    margin-bottom: 1rem;
+  }
+
+  .register {
+    background-color: rgba(32, 3, 32, 0.555);
+    width: 50%;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+  }
+
+  .login {
+    text-align: center;
+  }
+
+  .login-container {
+    background-color: rgba(32, 3, 32, 0.555);
+    width: 50%;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  nav {
+    padding: 1.2rem;
+  }
+
+  .navbar li {
+    padding: 0 1.2rem;
+  }
+
+  .navbar a {
+    font-size: 3rem;
+  }
+
+  .logo p {
+    font-size: 2rem;
+  }
+
+  .about {
+    text-align: center;
+    padding: 0 1rem;
+    line-height: 1.5;
+    margin-bottom: 7rem;
+    font-size: 2rem;
+  }
+
+  .about p {
+    font-size: 2.5rem;
+    width: 80%;
+    margin: 2rem auto;
+  }
+
+  img {
+    width: 22rem;
+    height: 25rem;
+    border-radius: 50%;
+  }
+
+  .education,
+  .experience {
+    padding: 0 6rem;
+    margin-bottom: 5rem;
+    font-size: 2rem;
+  }
+
+  .experience li {
+    margin-bottom: 1rem;
+  }
+
+  .skills {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .skill-c {
+    margin: 4.5rem;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 2rem;
+  }
+
+  span {
+    background-color: white;
+    padding: 1rem;
+    margin: 0 1.5rem;
+    color: black;
+    border-radius: 0.5rem;
+  }
+
+  .contact-container {
+    display: flex;
+    padding: 0 3rem;
+    margin: 5rem 5rem;
+    background-color: rgba(32, 3, 32, 0.555);
+    font-size: 2rem;
+  }
+
+  .contact-text {
+    flex-basis: 50%;
+    margin: auto;
+  }
+
+  .contact-form {
+    flex-basis: 50%;
+  }
+
+  .contact-text p {
+    width: 80%;
+  }
+
+  .sub {
+    padding-left: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .sub h4,
+  .sub p {
+    margin: 0;
+  }
+
+  .contact-input input {
+    width: 80%;
+    height: 4rem;
+  }
+
+  textarea {
+    width: 85%;
+    height: 20rem;
+  }
+
+  input {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+  }
+
+  label,
+  select {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  .register {
+    background-color: rgba(32, 3, 32, 0.555);
+    width: 50%;
+    margin: 5rem auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+  }
+
+  .login {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .login-container {
+    background-color: rgba(32, 3, 32, 0.555);
+    width: 50%;
+    margin: 5rem auto;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+}
